@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/***LOGO***/
+
+.logo {
+  height: 80px;
+  font-family: "Cinzel", serif;
+  color: #999999;
+  font-size: 25px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.logo p {
+  padding-left: 80px;
+  padding-top: 18px;
+  text-transform: uppercase;
+}
+
+header section {
+  background-image: url(../img/alphs_background.avif);
+  height: 638px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: auto;
+  padding-top: 257px;
+  padding-left: 752px;
+}
+
+header section p {
+  color: white;
+  font-size: 62px;
+  font-family: "Cinzel", serif;
+  font-weight: 500;
+}
+
+header section p + p {
+  margin-left: 10px;
+}
+
+/***Main***/
+main {
+  padding-top: 107px;
+}
+
+h2 {
+  font-family: "Cinzel", serif;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 52px;
+}
+
+.alphs_view {
+  margin-top: 108px;
+}
+
+.alphs_offer {
+  text-align: center;
+  width: 1200px;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+
+/***PICTURES***/
+
+.alphs_view {
+  margin: 0 auto;
+  width: 1720px;
+  padding-bottom: 93px;
+}
+
+.alphs_view img {
+  margin-top: 106px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+/***Tour Dates***/
+
+.tour_dates {
+  margin-left: 135px;
+  padding-bottom: 127px;
+}
+.tour_dates p {
+  font-family: "Poppins", sans-serif;
+  padding-top: 33px;
+  font-size: 20px;
+}
+.tour_dates .status {
+  text-transform: uppercase;
+}
+main .tour_dates_title {
+  margin-bottom: 10px;
+}
+
+span.pos {
+  color: #218000;
+}
+
+span.neg {
+  color: #f40602;
+}
+
+/***Contact Us***/
+
+footer {
+  padding-top: 49px;
+  border-top: 1px solid #cccccc;
+  height: 113px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #333333;
+}
